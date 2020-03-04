@@ -7,7 +7,7 @@ const ImageList = (props) => {
         //desEstructuración
         ({ urls, id, description }) =>
             (
-                <img src={urls.thumb} key={id} alt={description} />
+                <img src={urls.small} key={id} alt={description} />
             )
     );
     return (

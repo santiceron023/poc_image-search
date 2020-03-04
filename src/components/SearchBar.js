@@ -6,8 +6,9 @@ class SearchBar extends React.Component {
     onFormSubmit(event) {
         //no refresh the page
         event.preventDefault();
-        this.props.onUserSubmit(this.state.term);
+        this.props.onUserSubmit(this.state.term);        
     }
+    
     render() {
         return (
             <div className="ui segment">
